@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+
+# Name: Monte Gualtiere
+# Class: NTW3670
+# Instructor: Aaron Jones
+# License: GPL3
+# License URL: http://www.gnu.org/licenses/gpl-3.0.en.html
+# This is a script that will accept three variables and print a sentence.
+
+
+student_firstname=""
+student_coursecode=""
+student_school="UAT"
+
+echo "What is your first name?"
+read student_firstname
+
+echo "What is your course code?"
+read student_coursecode
+
+echo "Hello $student_firstname!"
+echo "You're currently attending $student_coursecode, at $student_school."
+
